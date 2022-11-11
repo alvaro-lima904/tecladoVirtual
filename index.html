@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="um site que cria um teclado digital, que pode estar escrevendo em todas as teclas que você apertar com o mouse, além de poder limpar a mensagem escrita caso clique 2x na tela">
+    <meta name="keywords" content="teclado, virtual, apertar">
+    <meta name="author" content="Alvaro Carvalho de Lima">
+    <meta name="robots" content="index, follow">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Teclado Virtual</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="wrapper" name="form">
+            <div class="display">
+                <textarea name="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div class="keys">
+                <input type="button" value="q" name="q" onclick="disp(q.value)">
+                <input type="button" value="w" name="w" onclick="disp(w.value)">
+                <input type="button" value="e" name="e" onclick="disp(e.value)">
+                <input type="button" value="r" name="r" onclick="disp(r.value)">
+                <input type="button" value="t" name="t" onclick="disp(t.value)">
+                <input type="button" value="y" name="y" onclick="disp(y.value)">
+                <input type="button" value="u" name="u" onclick="disp(u.value)">
+                <input type="button" value="i" name="i" onclick="disp(i.value)">
+                <input type="button" value="i" name="o" onclick="disp(o.value)">
+                <input type="button" value="p" name="p" onclick="disp(p.value)">
+            </div>
+            <div class="keys">
+                <input type="button" value="a" name="a" onclick="disp(a.value)">
+                <input type="button" value="s" name="s" onclick="disp(s.value)">
+                <input type="button" value="d" name="d" onclick="disp(d.value)">
+                <input type="button" value="f" name="f" onclick="disp(f.value)">
+                <input type="button" value="g" name="g" onclick="disp(g.value)">
+                <input type="button" value="h" name="h" onclick="disp(h.value)">
+                <input type="button" value="j" name="j" onclick="disp(j.value)">
+                <input type="button" value="k" name="k" onclick="disp(k.value)">
+                <input type="button" value="l" name="l" onclick="disp(l.value)">
+            </div>
+            <div class="keys">
+                <input type="button" value="z" name="z" onclick="disp(z.value)">
+                <input type="button" value="x" name="x" onclick="disp(x.value)">
+                <input type="button" value="c" name="v" onclick="disp(c.value)">
+                <input type="button" value="v" name="c" onclick="disp(v.value)">
+                <input type="button" value="b" name="b" onclick="disp(b.value)">
+                <input type="button" value="n" name="n" onclick="disp(n.value)">
+                <input type="button" value="m" name="m" onclick="disp(m.value)">
+
+            </div>
+            <div class="keys">
+                <input type="button" id="space" value="SPACE">
+            </div>
+
+        </form>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
